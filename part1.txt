@@ -1,0 +1,53 @@
+High Level Tests
+-Test the funcionality of the Cancel Wanted page by inputting the fields and cancelling a 
+ warrant
+	Result: Error text appeared stating Warrant ID wasn't the proper 10 character length,
+	despite the Enter Wanted page only requiring 9 characters
+Test fail
+
+-Continue testing the functionality of the Cancel Wanted page by inputting the requested
+amount of characters for the Warrant ID
+	Result: Error text appeared stating optional fields needed filling out despite
+	no optional fields being present on Cancel Wanted page
+
+Low Level Tests
+-Test the functionality of inputting a warrant id less than the required amount
+	Result: Text appeared stating there was an error due to an insufficient length
+	of warrant ID
+Test Succesful
+
+=Testing the optional input fields by leaving them blank.
+	Result: Error appeared stating at least one optional field needed to be filled out.
+	However, after inputting the state of the drivers liscense another error test popped up
+	stating that the entire optional section was required to be filled
+Test fail
+
+Smoke/Sanity test
+-Dasboard button next to title lead to hyperlinks to other pages on site. Each hyperlink 
+led to its appropriate page and the fields and buttons within each page seem functional
+
+
+Inputs on Enter Wanted page
+abc-12344
+CBA
+0987654
+John Smith
+Male
+White
+5,5
+190
+brown
+murder
+04/03/2023
+
+optional
+UT
+
+
+Inputs on Cancel Wanted page
+0987654321
+He was Innocent
+04/04/2023
+
+
+
